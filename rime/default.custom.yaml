@@ -1,0 +1,76 @@
+patch:
+  "menu/page_size": 8
+  translator/enable_completion: false
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: clear
+    Shift_L: noop
+    Shift_R: noop
+  punctuator:
+    full_shape:
+      " ": {commit: "　"}
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": ["＃", "⌘"]
+      "$": {commit: "￥"}
+      "%": {commit: "％"}
+      "&": "＆"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["＊", "·", "・", "×", "※", "❂"]
+      "+": "＋"
+      ",": {commit: "，"}
+      "-": "－"
+      .: {commit: "。"}
+      "/": {commit: "、"}
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": "《"
+      "=": "＝"
+      ">": "》"
+      "?": {commit: "？"}
+      "@": ["＠", "☯"]
+      "[": {commit: "【"}
+      "\\": ["、", "＼"]
+      "]": {commit: "】"}
+      "^": {commit: "……"}
+      _: "——"
+      "`": "｀"
+      "{": {commit: "｛"}
+      "|": ["·", "｜", "§", "¦"]
+      "}": {commit: "｝"}
+      "~": "～"
+    half_shape:
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": "#"
+      "$": {commit: "￥"}
+      "%": {commit: "％"}
+      "&": "&"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["*", "＊", "·", "・", "×", "※", "❂"]
+      "+": "+"
+      ",": {commit: "，"}
+      "-": "-"
+      .: {commit: "。"}
+      "/": {commit: "、"}
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": "《"
+      "=": "="
+      ">": "》"
+      "?": {commit: "？"}
+      "@": "@"
+      "[": {commit: "【"}
+      "\\": ["、", "\\", "＼"]
+      "]": {commit: "】"}
+      "^": {commit: "……"}
+      _: "——"
+      "`": "`"
+      "{": {commit: "｛"}
+      "|": ["·", "|", "｜", "§", "¦"]
+      "}": {commit: "｝"}
+  "~": ["~", "～"]
